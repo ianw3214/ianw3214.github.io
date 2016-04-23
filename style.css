@@ -1,78 +1,43 @@
+html{
+  height:100%;
+}
 body{
   background-color:#111414;
   font-family:Poiret One;
-  color:#B6BFC2;
+  color:#FFFFFF;
+  height:100%;
 }
-.nav{
-  position:fixed;
-  border-style:solid;
-  border-width:1px;
-  width:10%;
-  border-radius:10px;
-  right:4%;
-  padding:10px;
-  font-size:17px;
+#ctn{
+  height: 100%;
 }
-#nHome{
-  border-color:#F27474;
-  top:20%;
-}
-#nPortfolio{
-  border-color:#D8DE66;
-  top:30%;
-}
-#nContact{
-  border-color:#66D6DE;
-  top:40%;
-}
-#main{
-  border-style:solid;
-  border-width:1px;
-  border-color:#98ACB3;
-  width:70%;
-  margin-left:auto;
-  margin-right:auto;
-  margin-top:10px;
-  border-radius:10px;
-}
-#home, #portfolio, #contact{
-  border-style:solid;
-  border-width:1px;
-  border-color:#98ACB3;
-  border-radius:10px;
-  margin:10px;
+#side{
+  background-image:url("assets/l_bg.jpg");
+  background-size:100% 100%;
+  height:100%;
   text-align:center;
 }
-h1{
-  color:#C871EB;
-  font-size:70px;
+#name{
+  font-size:50px;
 }
-#profilePic{
-  width:50%;
-  margin-left:auto;
-  margin-right:auto;
-  margin-top:20px;
-  border-radius:10px;
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
-p{
-  color:#A9C3CC;
-  width:60%;
-  margin-left:auto;
-  margin-right:auto;
-  font-size:20px;
-  margin-top:10px;
+.title{
+  font-size:30px;
 }
-#links{
-  margin:20px;
+.icon{
   font-size:40px;
 }
-a{
-  color:#E3DD96;
+a:link, a:visited{
+  color:#FFF;
 }
-.nav a{
-  color:#A9C3CC;
-  text-decoration:none;
+a:hover{
+  color:#71ECF5;
 }
-.nav a:hover{
-  color:#66C4DE;
+a:active{
+  color:#B3FFF5;
 }
