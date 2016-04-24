@@ -1,78 +1,69 @@
+html{
+  height:100%;
+  width:100%;
+  margin:0px;
+}
 body{
   background-color:#111414;
   font-family:Poiret One;
-  color:#B6BFC2;
+  color:#FFFFFF;
+  height:100%;
+  width:100%;
+  margin:0px;
 }
-.nav{
-  position:fixed;
-  border-style:solid;
-  border-width:1px;
-  width:10%;
-  border-radius:10px;
-  right:4%;
-  padding:10px;
-  font-size:17px;
+a:link, a:visited{
+  color:#FFF;
 }
-#nHome{
-  border-color:#F27474;
-  top:20%;
+a:hover{
+  color:#71ECF5;
 }
-#nPortfolio{
-  border-color:#D8DE66;
-  top:30%;
-}
-#nContact{
-  border-color:#66D6DE;
-  top:40%;
-}
-#main{
-  border-style:solid;
-  border-width:1px;
-  border-color:#98ACB3;
-  width:70%;
-  margin-left:auto;
-  margin-right:auto;
-  margin-top:10px;
-  border-radius:10px;
-}
-#home, #portfolio, #contact{
-  border-style:solid;
-  border-width:1px;
-  border-color:#98ACB3;
-  border-radius:10px;
-  margin:10px;
-  text-align:center;
-}
-h1{
-  color:#C871EB;
-  font-size:70px;
-}
-#profilePic{
-  width:50%;
-  margin-left:auto;
-  margin-right:auto;
-  margin-top:20px;
-  border-radius:10px;
+a:active{
+  color:#B3FFF5;
 }
 p{
-  color:#A9C3CC;
-  width:60%;
-  margin-left:auto;
-  margin-right:auto;
-  font-size:20px;
-  margin-top:10px;
+  font-size:15px;
 }
-#links{
-  margin:20px;
+#ctn{
+  height: 100%;
+  width:100%;
+  margin:0px;
+}
+#side{
+  background-image:url("assets/l_bg.jpg");
+  background-size:100% 100%;
+  height:100%;
+  text-align:center;
+  margin:0px;
+}
+#name{
+  font-size:50px;
+}
+#main{
+  height:100%;
+  overflow-y: scroll;
+  margin:0px;
+}
+#post{
+  height:200px;
+  padding:25px;
+}
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.title{
+  font-size:30px;
+}
+.icon{
   font-size:40px;
 }
-a{
-  color:#E3DD96;
+.link{
+  text-decoration: underline;
 }
-.nav a{
-  color:#A9C3CC;
-  text-decoration:none;
-}
-.nav a:hover{
-  color:#66C4DE;
+.foot{
+  font-size:10px;
+  color:#CCC;
 }
