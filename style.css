@@ -1,23 +1,51 @@
 html{
   height:100%;
+  width:100%;
+  margin:0px;
 }
 body{
   background-color:#111414;
   font-family:Poiret One;
   color:#FFFFFF;
   height:100%;
+  width:100%;
+  margin:0px;
+}
+a:link, a:visited{
+  color:#FFF;
+}
+a:hover{
+  color:#71ECF5;
+}
+a:active{
+  color:#B3FFF5;
+}
+p{
+  font-size:15px;
 }
 #ctn{
   height: 100%;
+  width:100%;
+  margin:0px;
 }
 #side{
   background-image:url("assets/l_bg.jpg");
   background-size:100% 100%;
   height:100%;
   text-align:center;
+  margin:0px;
 }
 #name{
   font-size:50px;
+}
+#main{
+  height:100%;
+  overflow-y: scroll;
+  margin:0px;
+}
+#post{
+  height:200px;
+  padding:25px;
 }
 .vertical-align {
   position: relative;
@@ -32,12 +60,10 @@ body{
 .icon{
   font-size:40px;
 }
-a:link, a:visited{
-  color:#FFF;
+.link{
+  text-decoration: underline;
 }
-a:hover{
-  color:#71ECF5;
-}
-a:active{
-  color:#B3FFF5;
+.foot{
+  font-size:10px;
+  color:#CCC;
 }
