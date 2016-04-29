@@ -42,10 +42,12 @@ p{
   height:100%;
   overflow-y: scroll;
   margin:0px;
+  padding:10px;
 }
 #post{
-  height:200px;
   padding:25px;
+  border-radius:10px;
+  background-color:#466D75;
 }
 .vertical-align {
   position: relative;
