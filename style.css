@@ -2,6 +2,7 @@ html{
   height:100%;
   width:100%;
   margin:0px;
+  padding:0px;
 }
 body{
   background-color:#111414;
@@ -10,6 +11,8 @@ body{
   height:100%;
   width:100%;
   margin:0px;
+  padding:0px;
+  overflow: hidden;
 }
 a:link, a:visited{
   color:#FFF;
@@ -27,6 +30,7 @@ p{
   height: 100%;
   width:100%;
   margin:0px;
+  padding:0px;
 }
 #side{
   background-image:url("assets/l_bg.jpg");
@@ -40,14 +44,18 @@ p{
 }
 #main{
   height:100%;
-  overflow-y: scroll;
   margin:0px;
-  padding:10px;
+  padding:0px;
 }
-#post{
-  padding:25px;
-  border-radius:10px;
-  background-color:#466D75;
+#content{
+  height:100%;
+  width:100%;
+  border:none;
+  margin:0px;
+  padding:0px;
+}
+.title{
+  font-size:30px;
 }
 .vertical-align {
   position: relative;
@@ -56,16 +64,6 @@ p{
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-.title{
-  font-size:30px;
-}
 .icon{
   font-size:40px;
-}
-.link{
-  text-decoration: underline;
-}
-.foot{
-  font-size:10px;
-  color:#CCC;
 }
