@@ -6,10 +6,12 @@ body{
   margin:0px;
 }
 h1{
+  margin-left: 5px 0px 5px 0px;
   font-size:30px;
 }
 p{
-  font-size:15px;
+  text-indent: 3em;
+  font-size:17px;
 }
 a:link, a:visited{
   color:#FFF;
@@ -22,10 +24,10 @@ a:active{
 }
 #content{
   height:100%;
-  background-color:#466D75;
+  background-color:#2A4D59;
   margin:10px;
   border-radius:10px;
-  padding:10px;
+  padding:15px;
 }
 .link{
   text-decoration: underline;
@@ -33,4 +35,9 @@ a:active{
 .foot{
   font-size:10px;
   color:#CCC;
+}
+.img{
+  width:50%;
+  border-radius:20px;
+  margin:20px;
 }
