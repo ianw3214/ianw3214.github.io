@@ -12,9 +12,9 @@ body{
   width:100%;
   margin:0px;
   padding:0px;
-  overflow: hidden;
 }
 a:link, a:visited{
+  text-decoration: none;
   color:#FFF;
 }
 a:hover{
@@ -23,14 +23,12 @@ a:hover{
 a:active{
   color:#B3FFF5;
 }
-p{
-  font-size:15px;
-}
 #ctn{
   height: 100%;
   width:100%;
   margin:0px;
   padding:0px;
+  overflow: hidden;
 }
 #side{
   background-image:url("assets/l_bg.jpg");
