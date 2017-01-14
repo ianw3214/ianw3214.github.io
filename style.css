@@ -1,67 +1,173 @@
 html{
-  height:100%;
-  width:100%;
-  margin:0px;
-  padding:0px;
+    scroll-behavior: smooth;
 }
 body{
-  background-color:#111414;
   font-family:Poiret One;
-  color:#FFFFFF;
-  height:100%;
-  width:100%;
-  margin:0px;
-  padding:0px;
+  font-weight: bold;
+  margin:0;
+  padding:0;
+  height:2000px;
+  color:#404347;
 }
-a:link, a:visited{
-  text-decoration: none;
-  color:#FFF;
+h1{
+    font-size:70px;
 }
-a:hover{
-  color:#71ECF5;
+h2{
+    font-size:40px;
 }
-a:active{
-  color:#B3FFF5;
+p{
+    font-size:25px;
 }
-#ctn{
-  height: 100%;
-  width:100%;
-  margin:0px;
-  padding:0px;
-  overflow: hidden;
+hr{
+    width:100px;
 }
-#side{
-  background-image:url("assets/l_bg.jpg");
-  background-size:100% 100%;
-  height:100%;
-  text-align:center;
-  margin:0px;
+a{
+    font-size:30px;
+    text-decoration:none;
+    color:#404347;
 }
-#name{
-  font-size:50px;
+#menu{
+    width:100%;
+    position:fixed;
+    z-index:100;
+    text-align:center;
+    padding:0;
+    background-color:#91d0e0;
+    top:10px;
 }
-#main{
-  height:100%;
-  margin:0px;
-  padding:0px;
+#home p{
+    width:80%;
 }
-#content{
-  height:100%;
-  width:100%;
-  border:none;
-  margin:0px;
-  padding:0px;
+.button{
+    vertical-align: top;
+    width: 160px;
+    display:inline-block;
+    margin: 0px;
 }
-.title{
-  font-size:30px;
+.button:hover{
+    background-color:#658fd3;
+    transition: all 0.3s ease 0s;
 }
-.vertical-align {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+.button active{
+    background-color:#779cd8;
 }
-.icon{
-  font-size:40px;
+#home{
+    margin-top:100px;
+    width:80%;
+    text-align:center;
+    margin:100px auto 0px auto;
+    margin-bottom:180px;
+}
+
+#headshot{
+    margin-top:50px;
+    margin-bottom:50px;
+    border-radius:50%;
+    width:250px;
+}
+#projects{
+    margin-top:50px;
+    padding-top:10px;
+    background-color:#d7f0f7;
+    width:100%;
+    text-align:center;
+}
+.project{
+    width:100%;
+    margin:50px auto 0px auto;
+    padding-bottom:50px;
+}
+.project p{
+    width: 35%;
+    margin:0 auto;
+    font-size:20px;
+}
+.thumbnail{
+    width:500px;
+    border-radius:20px;
+    box-shadow: 0 0 1pt 1pt #7e8289;
+    transition: all 0.3s ease 0s;
+}
+.thumbnail:hover{
+    box-shadow: 0 0 2pt 3pt #7e8289;
+    transition: all 0.3s ease 0s;
+}
+.link-text:hover{
+    color:#6c8783;
+    transition: all 0.3s ease 0s;
+}
+#skills{
+    width:100%;
+    padding-top:50px;
+    text-align: center;
+}
+#icons{
+    width:80%;
+    margin:50px auto 0px auto;
+    border-style:solid;
+    border-radius:10px;
+    border-color:#d3e7ea;
+    color:#94b1e0;
+    padding:30px;
+    text-align:center;
+}
+#icons p{
+    text-align:left;
+    padding-left:15px;
+}
+.icon, a i{
+    font-size:80px;
+    margin:30px;
+}
+.icon:hover, a i:hover{
+    cursor:pointer;
+    color:#666d8e;
+    transition: all 0.2s ease 0s;
+}
+#description{
+    width:90%;
+    margin:50px auto 0px auto;
+    border-style:solid;
+    border-radius:10px;
+    border-color:#d3e7ea;
+    background-color:#ddeaff;
+    color:#575d66;
+}
+#contact{
+    margin-top:30px;
+    padding-top:30px;
+    background-color:#ffd6eb;
+    text-align:center;
+    margin-bottom:0px;
+    padding-bottom:50px;
+}
+#buttons{
+    font-size:80px;
+}
+#footer{
+    text-align:right;
+    background-color:#d7d9dd;
+    padding:20px;
+    margin:0;
+}
+@media (max-width: 720px){
+    .button{
+        width:135px;
+        padding:2px;
+    }
+    .button a{
+        font-size:23px;
+    }
+    #home{
+        width:100%;
+    }
+    #home p{
+        width:100%;
+    }
+    #headshot{
+        margin-top:0;
+        margin-bottom:0;
+        border-radius:50%;
+        width:250px;
+    }
 }
