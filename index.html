@@ -3,6 +3,18 @@ layout: default
 title: Ian Wang
 ---
 <div class="blurb">
-	<h1>Hi there, I'm Ian Wang!</h1>
-	<p>I'm a developer/artist/student who doesn't really know what he's doing!</p>
+	<h1>Quichi.me</h1>
+	<p>Hi, my name's Ian. I'm a developer/artist/student who enjoys gamedev.</p>
+
+	<br/>
+
+	<h2>
+		Recent Posts
+	</h2>
+
+	<ul class="posts">
+		{% for post in site.posts limit:5 %}
+			<li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+		{% endfor %}
+	</ul>
 </div><!-- /.blurb -->
