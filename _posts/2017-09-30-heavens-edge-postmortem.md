@@ -4,7 +4,7 @@ title: "Heaven's Edge Postmortem"
 date: 2017-09-30
 ---
 
-## Prelogue?
+## Prologue?
 
 First things first, I've finally gotten around to putting a blog together, and I thought what better to do for my first post than a post mortem of a recent game I've decided to stop working on.
 
