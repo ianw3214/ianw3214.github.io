@@ -2,6 +2,7 @@
 layout: post
 title: "Heaven's Edge Postmortem"
 date: 2017-09-30
+comments: true
 ---
 
 ## Prologue?
