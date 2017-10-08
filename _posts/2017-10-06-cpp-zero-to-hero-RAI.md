@@ -15,7 +15,7 @@ I'm going to first talk about a bit of my motivations and goals, so if you don't
 
 RAII stands for *resource aquisition is initialization*, which is essentially the idea that the lifetime of a resource that has to be acquired should be bound to the lifetime of an object. Essentially, upon *initialization* of an object, we are also *aquiring resources* which have their lifetimes bound to that of the wrapper object. Some people are pushing to call this *scope bound resouce management*, since the resource is freed once the object goes out of scope. This fundamental programming technique is used to guarantee exception safety; Consider this example:
 
-~~~ c++
+~~~cpp
 std::mutex var_mutex;
 // .. Do some stuff ..
 try {
@@ -30,7 +30,7 @@ catch(const std::exception& e) {
 
 The above code locks the mutex on the first line in the try block, and calls unlock later on in the program. However, once the exception is thrown, the rest of the try block doesn't execute and the program control falls to the catch block. This means that the mutex is never unlocked properly and when the lock function on the mutex is called within the same thread again, the behavior is undefined and will most likely deadlock. Now consider the following class:
 
-~~~c++
+~~~cpp
 class LockGuard{
 public:
     LockGuard(std::mutex& mut) : reference(mut) {
@@ -46,7 +46,7 @@ private:
 
 With this basic implementation of a *lock guard*, we have bound the mutex lock cycle to the lifetime of the *LockGuard* class. Now, when we try the same block of code again, we get our resources properly cleaned up:
 
-~~~c++
+~~~cpp
 std::mutex var_mutex;
 // .. Do some stuff ..
 try {
@@ -65,7 +65,7 @@ With the new implementation, the mutex is unlocked if the try block completes su
 
 The idea of *scope bound resource management* is not just limited to mutexes, it can be used for things like file handles, sockets, heap allocated memory, basically anything that has a clear initialize/cleanup structure. A lot of times, these things are already in the standard library, like the [*Lock Guard*](http://en.cppreference.com/w/cpp/thread/lock_guard) that we implemented above, or things like [*smart pointers*](http://en.cppreference.com/w/cpp/memory/unique_ptr). Personally, I have used this technique to code certain aspects of my game engine, consider the following texture class(taken from the engine I am currently working on):
 
-~~~c++
+~~~cpp
 class Texture {
 
 public:
