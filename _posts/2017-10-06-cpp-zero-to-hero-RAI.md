@@ -7,7 +7,7 @@ comments: true
 
 ## Introduction
 
-I'm going to first talk about a bit of my motivations and goals, so if you don't want to hear that you should skip to the next section for the good stuff. Anyways, I've been working on a game engine this past week and it's really opened up my eyes to how little I know about C++. After a few hours of browsing the [C++ subreddit](reddit.com/r/cpp), I've realized that I can't even understand at least half of all the posts on there. That is why I spent a couple of hours putting together a list of C++ topics that I want to learn and understand, from things like *RAII*, *SFINAE*, to *memory alignment* and *template metaprogramming*; I want to learn it all, and I'm starting with this post about **RAII**. 
+I'm going to first talk about a bit of my motivations and goals, so if you don't want to hear that you should skip to the next section for the good stuff. Anyways, I've been working on a game engine this past week and it's really opened up my eyes to how little I know about C++. After a few hours of browsing the [C++ subreddit](https://reddit.com/r/cpp), I've realized that I can't even understand at least half of all the posts on there. That is why I spent a couple of hours putting together a list of C++ topics that I want to learn and understand, from things like *RAII*, *SFINAE*, to *memory alignment* and *template metaprogramming*; I want to learn it all, and I'm starting with this post about **RAII**. 
 
 ***
 
