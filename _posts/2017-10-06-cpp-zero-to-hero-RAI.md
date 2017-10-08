@@ -53,7 +53,6 @@ The above code locks the mutex on the first line in the try block, and calls unl
 With this basic implementation of a *lock guard*, we have bound the mutex lock cycle to the lifetime of the *LockGuard* class. Now, when we try the same block of code again, we get our resources properly cleaned up:
 
 <script src="https://gist.github.com/ianw3214/17d89f4331d9cf3b37ae355283625062.js"></script>
-<script src="https://gist.github.com/ianw3214/dba616e0acefba77a7ac99b27a158a8d.js"></script>
 <noscript>
     <pre>
         std::mutex var_mutex;
