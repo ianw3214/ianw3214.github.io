@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Null Injector Postmortem"
+title: "Null Injection Postmortem"
 date: 2017-11-06
 comments: true
 ---
