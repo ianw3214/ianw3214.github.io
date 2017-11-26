@@ -115,4 +115,4 @@ As I am not by any means an expert in C++, so I'm going to provide some more res
 
 ## Closing Remarks??
 
-As this is my first technical blog post, combined with the fact that I'm not quite fluent in C++, I would greatly appreciate any feedback/criticism. Feel free to leave a comment on this post or send me an email at [ianianw21@gmail.com](mailto:ianianw21@gmail.com). 
+As this is my first technical blog post, combined with the fact that I'm not quite fluent in C++, I would greatly appreciate any feedback/criticism. Feel free to leave a comment on this post or send me an email at [ianianw21@gmail.com](mailto:ianianw21@gmail.com).
