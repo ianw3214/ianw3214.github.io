@@ -15,14 +15,14 @@ int&& r_ref = 10;   // rvalue reference
 
 Upon first look, the benefits of rvalue references can be hard to see. However, it is quite useful when trying to solve problems related to move semantics.
 
-# Move Semantics
+## Move Semantics
 
 Move semantics allow us to transfer ownership of resources between different objects. Consider the following example:
 
 <script src="https://gist.github.com/ianw3214/eb7935848b230e6f075d801c5edef5ed.js"></script>
 <noscript>
     <pre>
-        template<class T>
+        template&ltclass T&gt
         class dumb_pointer{
             T * ptr;
         public:
