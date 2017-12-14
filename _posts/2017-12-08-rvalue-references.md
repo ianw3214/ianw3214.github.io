@@ -33,7 +33,7 @@ Move semantics allow us to transfer ownership of resources between different obj
         };
 
         // smart pointer class with move semantics
-        template<class T>
+        template&ltclass T&gt
         class smart_pointer{
             T * ptr;
         public:
@@ -51,13 +51,13 @@ Move semantics allow us to transfer ownership of resources between different obj
         int main() {
 
             {
-                dumb_ptr<obj> ptr1(new obj());
-                dumb_ptr<obj> ptr2(ptr1);
+                dumb_ptr&ltobj&gt ptr1(new obj());
+                dumb_ptr&ltobj&gt ptr2(ptr1);
             }
 
             {
-                smart_ptr<obj> ptr1(new obj());
-                smart_ptr<obj> ptr2(ptr1);
+                smart_ptr&ltobj&gt ptr1(new obj());
+                smart_ptr&ltobj&gt ptr2(ptr1);
             }
 
             return 0;
