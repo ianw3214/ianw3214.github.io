@@ -14,7 +14,7 @@ title: Ian's Blog
 	-->
 
 <details>
-	<summary>{{ (site.posts | first) | date: "%B, %Y" }}</summary>
+	<summary>{{ (site.posts | first).date | date: "%B, %Y" }}</summary>
 	<ul>
 		{% for post in site.posts %} 
 			<li>
