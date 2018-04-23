@@ -15,10 +15,13 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #5BF;
+    color: #58C;
 }
 a:hover {
     text-decoration: underline;
+}
+.menu {
+    color: #999;
 }
 h1 {
     font-size: 3em;
@@ -44,5 +47,5 @@ ul.posts li {
 }
 
 time {
-    padding-left: 5px;
+    padding-left: 15px;
 }
