@@ -5,7 +5,18 @@ title: Ian's Blog
 	<h1>{{ page.title }}</h1>
 	<ul class="posts">
 
+		<!--
 	  {% for post in site.posts %}
 	    <li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
+		{% endfor %}
+		-->
+		{% for post in site.posts %} 
+			{% capture day %}{{ post.date | date: '%m%d%Y' }}{% endcapture %} 
+			{% capture nday %}{{ post.next.date | date: '%m%d%Y' }}{% endcapture %} 
+			{% if day != nday %}
+				<h5 class="date">{{ post.date | date: "%A, %B %e, %Y" }}</h5>
+			{% endif %} 
+			{{ post.content }}
+			<hr> 
+		{% endfor %}
 	</ul>
