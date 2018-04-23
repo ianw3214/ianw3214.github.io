@@ -14,20 +14,20 @@ title: Ian's Blog
 	-->
 
 <details>
+	<summary>{{ (site.posts | first) | date: "%B, %Y" }}</summary>
 	<ul>
-		<summary>{{ (site.posts | first) | date: "%B, %Y" }}</summary>
 		{% for post in site.posts %} 
 			<li>
 				<span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 			</li>
-			{% capture day %}{{ post.date | date: '%m%Y' }}{% endcapture %} 
-			{% capture nday %}{{ post.next.date | date: '%m%Y' }}{%endcapture %} 
+			{% capture day %}{{ post.date | date: "%B, %Y" }}{% endcapture %} 
+			{% capture nday %}{{ post.next.date | date: "%B, %Y" }}{%endcapture %} 
 			{% if day != nday %}
 				<!-- <h5 class="date">{{ post.date | date: "%B, %Y" }}</h5> -->
 				</ul>
 				</details>
 				<details>
-					<summary>{{post.next.date | date: '%m%Y' }}</summary>
+					<summary>{{post.next.date | date: "%B, %Y" }}</summary>
 				<ul>
 			{% endif %}
 		{% endfor %}
