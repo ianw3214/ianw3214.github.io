@@ -9,7 +9,7 @@ comments: true
 
 # Achievements
 
-![Github Contribution Chart](/assets/github_contrib.png)
+![Github Contribution Chart](/assets/posts/github_contrib.png)
 
 My Contribution chart for 2017 looks pretty busy, and overall I'm pretty happy with the amount of work I put into projects outside of school. I've learned many new skills and technologies, from web programming and databases to making a basic neural network in Verilog HDL.
 
