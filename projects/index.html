@@ -5,7 +5,7 @@ title: Ian's Blog
 <h1>{{ page.title }}</h1>
 
 {% for post in site.posts %}
-    {% if site.project %}
+    {% if post.tags contains 'project' %}
     <!--
         {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
         {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
