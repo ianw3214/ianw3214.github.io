@@ -82,4 +82,5 @@ time {
     padding: .2em;
     background-color: #fff;
     border: 0;
+    object-fit: fill;
 }
