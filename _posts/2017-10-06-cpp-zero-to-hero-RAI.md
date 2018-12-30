@@ -3,6 +3,7 @@ layout: post
 title: "C++ Zero to Hero - RAII"
 date: 2017-10-06
 comments: true
+tags: post
 ---
 
 ## Introduction

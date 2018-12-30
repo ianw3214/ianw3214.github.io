@@ -3,6 +3,7 @@ layout: post
 title: "New Year New Me"
 date: 2018-01-01
 comments: true
+tags: post
 ---
 
 2017 passed by in the blink of an eye, and so much has happened in my life this past year. I'm still trying to figure out what kind of blog I want this to be, so I'm just going to post all kinds of things for now, including more personal posts like this one. I have been pretty darn busy with school over the past year but there are still some events that I want to highlight, and I'll start with some of my bigger achievements this year.

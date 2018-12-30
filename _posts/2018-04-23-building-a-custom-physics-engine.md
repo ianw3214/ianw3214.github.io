@@ -3,6 +3,7 @@ layout: post
 title: "Building a Custom Physics Engine"
 date: 2018-04-22
 comments: true
+tags: post
 ---
 
 About a week ago, I took part in the **NXT showcase competition** hosted by Ubisoft, wherein we were tasked to create a pinball game using a provided API. The API only contained the functionality of line and text rendering, and we weren't allowed to use any third party libraries, which meant that the physics of the game had to be implemented from scratch. You can check out a video of the game [here](https://www.youtube.com/watch?v=377GqweQunk&t=122s). In this post I'll briefly cover my implementation of a basic physics engine and some of the design choices I made.

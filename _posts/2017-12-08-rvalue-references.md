@@ -3,6 +3,7 @@ layout: post
 title: "C++ rvalue references"
 date: 2017-12-08
 comments: true
+tags: post
 ---
 
 In my last post, I briefly explained lvalues and rvalues and a little bit about references. In this post, I will be talking about rvalue references. At first, the concept is quite hard to grasp because we previously defined to be an expression that doesn't allow us to take an address of a specific memory location. However, C++11 allows us to create references to r-values by using two ampersands instead of the one ampersand used to create an lvalue reference.

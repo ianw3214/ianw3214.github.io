@@ -3,6 +3,7 @@ layout: post
 title: "C++ lvalues and rvalues"
 date: 2017-11-26
 comments: true
+tags: post
 ---
 
 ## Introduction
