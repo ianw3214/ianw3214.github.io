@@ -49,3 +49,37 @@ ul.posts li {
 time {
     padding-left: 15px;
 }
+
+/* STUFF FOR PROJECT PAGE */
+.projects {
+    display: flex;
+    padding-bottom: 20px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 14px;
+    flex-grow: 1;
+}
+
+.card {
+    display: inline-block;
+    margin-top: 4px;
+    min-width: 150px;
+    max-width: 250px;
+    text-align: center;
+    overflow: auto;
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+
+.card>img {
+    width: 100%;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding: .2em;
+    background-color: #fff;
+    border: 0;
+}
