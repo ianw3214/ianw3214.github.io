@@ -68,6 +68,10 @@ p {
     font-size: .8em;
 }
 
+.link {
+    margin-left: 20px;
+}
+
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
