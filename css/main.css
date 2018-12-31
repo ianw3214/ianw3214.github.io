@@ -48,10 +48,9 @@ p {
     color: #333;
 }
 footer {
-    position: fixed;
-    right: 0;
+    width: 100%;
+    position: absolute;
     bottom: 0;
-    left: 0;
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
