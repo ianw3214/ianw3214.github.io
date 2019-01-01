@@ -26,8 +26,8 @@ body {
 }
 
 .content {
-    padding-bottom: 180px;
-}
+    padding-bottom: 190px;
+}   
 
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -63,13 +63,17 @@ p {
     width: 100%;
     position: absolute;
     bottom: 0;
-    height: 180px;
+    height: 190px;
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
 
 .link {
     margin-left: 20px;
+}
+
+.link:hover {
+    color: #3674d8;
 }
 
 ul.posts { 
@@ -117,4 +121,8 @@ time {
     background-color: #fff;
     border: 0;
     object-fit: fill;
+}
+
+.postList {
+    list-style-type: none;
 }

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ian's Blog
+title: Blog
 ---
 <h1>{{ page.title }}</h1>
 
@@ -11,7 +11,7 @@ title: Ian's Blog
 		{% if month != nmonth %}
 			{% if forloop.index != 1 %}</ul>{% endif %}
 			<h3>{{ post.date | date: '%B %Y' }}</h3>
-			<ul>
+			<ul class="postList">
 		{% endif %}
 		<li><a href="{{ post.url }}">{{ post.title }}</a></li>
 		<time>{{ post.date | date: "%e %B %Y" }}</time>
