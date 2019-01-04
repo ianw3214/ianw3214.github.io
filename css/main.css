@@ -126,3 +126,7 @@ time {
 .postList {
     list-style-type: none;
 }
+
+.post img {
+    max-width: 100%;
+}
