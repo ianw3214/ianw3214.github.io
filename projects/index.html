@@ -7,8 +7,9 @@ title: Projects
 <div class="projects">
 {% for post in site.posts %}
     {% if post.tags contains 'project' %}
-        <div class="card">
+        <div class="project">
             <img src="{{ site.baseurl }}/assets/projects/{{ post.image }}">
+            <h1 class="projectTitle"> {{ post.title }} </h1>
         <!--
         {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
         {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
@@ -20,7 +21,6 @@ title: Projects
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         <time>{{ post.date | date: "%e %B %Y" }}</time>
         -->
-            {{ post.title }}
         </div>
     {% endif %}
 {% endfor %}
