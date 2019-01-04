@@ -92,10 +92,14 @@ time {
 /* STUFF FOR PROJECT PAGE */
 .projects {
     width: 100%;
+}
+
+.project {
+    width: 100%;
     height: 400px;
 }
 
-.projects img {
+.project img {
     height: 100%;
     width: 30%;
     float: left;
@@ -110,5 +114,5 @@ time {
 }
 
 .projectTitle {
-
+    font-size: 30px;
 }
