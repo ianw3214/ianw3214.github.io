@@ -112,6 +112,9 @@ time {
 
 .postList {
     list-style-type: none;
+}
+
+.postList li, time {
     margin-bottom: 10px;
 }
 
