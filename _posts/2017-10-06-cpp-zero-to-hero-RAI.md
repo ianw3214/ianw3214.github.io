@@ -73,7 +73,7 @@ With the new implementation, the mutex is unlocked if the try block completes su
 
 ## Applying Concepts
 
-The idea of *scope bound resource management* is not just limited to mutexes, it can be used for things like file handles, sockets, heap allocated memory, basically anything that has a clear initialize/cleanup structure. A lot of times, these things are already in the standard library, like the [*Lock Guard*](http://en.cppreference.com/w/cpp/thread/lock_guard) that we implemented above, or things like [*smart pointers*](http://en.cppreference.com/w/cpp/memory/unique_ptr). Personally, I have used this technique to code certain aspects of my game engine, consider the following texture class(taken from the engine I am currently working on):
+The idea of *scope bound resource management* is not just limited to mutexes, it can be used for things like file handles, sockets, heap allocated memory, basically anything that has a clear initialize/cleanup structure. A lot of times, these things are already in the standard library, like the [*Lock Guard*](https://en.cppreference.com/w/cpp/thread/lock_guard) that we implemented above, or things like [*smart pointers*](https://en.cppreference.com/w/cpp/memory/unique_ptr). Personally, I have used this technique to code certain aspects of my game engine, consider the following texture class(taken from the engine I am currently working on):
 
 <script src="https://gist.github.com/ianw3214/89d2447d3de1ca43d3f100a4eae559d0.js"></script>
 <noscript>
@@ -112,7 +112,7 @@ With the way I have implemented the Texture class, the SDL_Texture object held w
 
 ## Extra Resources
 
-As I am not by any means an expert in C++, so I'm going to provide some more resources for extra reading. [Here](http://en.cppreference.com/w/cpp/language/raii) is the cppreference page for RAII, and [here](https://stackoverflow.com/questions/395123/raii-and-smart-pointers-in-c) is a pretty detailed stackoverflow explanation about the concept. If reading isn't your thing, [this video](https://www.youtube.com/watch?v=1ZisTEf2D7g&t=2210s) has a decent explanation as well. 
+As I am not by any means an expert in C++, so I'm going to provide some more resources for extra reading. [Here](https://en.cppreference.com/w/cpp/language/raii) is the cppreference page for RAII, and [here](https://stackoverflow.com/questions/395123/raii-and-smart-pointers-in-c) is a pretty detailed stackoverflow explanation about the concept. If reading isn't your thing, [this video](https://www.youtube.com/watch?v=1ZisTEf2D7g&t=2210s) has a decent explanation as well. 
 
 ## Closing Remarks??
 

@@ -15,9 +15,9 @@ I participated in the *UTGDDC fall reading week game jame* this weekend (UTGDDC 
 - Text rendering: [SDL TTF](https://www.libsdl.org/projects/SDL_ttf/)
 - Music library: [SDL mixer](https://www.libsdl.org/projects/SDL_mixer/)
 - Sprite creation: [Asesprite](https://www.aseprite.org/)
-- Music creation: [Bosca Ceoil](http://boscaceoil.net/)
-- SFX creation: [Chiptone](http://sfbgames.com/chiptone/)
-- Pixel Font: [MUNRO](http://tenbytwenty.com/?xxxx_posts=munro)
+- Music creation: [Bosca Ceoil](https://boscaceoil.net/)
+- SFX creation: [Chiptone](https://sfbgames.com/chiptone/)
+- Pixel Font: [MUNRO](https://tenbytwenty.com/?xxxx_posts=munro)
 
 I decided this game jam was a good time to test out the game engine I've been writing, so I decided not to do something too crazy, which is why I went with a simple platformer. As this is the first game I've made using my custom engine, I had to go back and fix a lot of engine code a lot of the time which cost me quite a bit of time in the beginning. Overall, I'm pretty happy with the result of the game, which you can find on [itch](https://quichi.itch.io/null-injector) or [github](https://github.com/ianw3214/FusionBlitz) (It's called Fusion Blitz on Github because that's what I was GOING to name the game...)
 

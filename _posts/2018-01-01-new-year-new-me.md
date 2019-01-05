@@ -24,7 +24,7 @@ As summer came along, I went home jobless, probably due to the fact that I was a
 
 As school started again in the fall, I immediately jumped back into work mode and went to Hack the North, a Hackathon in Waterloo, with a friend from Toronto. We made [**Tensor Builder**](https://github.com/TommyX12/tensorbuilder), a GUI tool to rapidly prototype computational graphs built with Qt. I implemented the web backend for storing / sharing graphs using ExpressJs connected with Firebase. I also helped with the UI here and there, but as I'm unfamiliar with Qt there was only so much I could do. This project took a lot more time than it did with any other hackathon I went to though because we were only a 2 man team and took on quite a larger project than I was used to, so finishing it was one of the most satisfying experiences I have had.
 
-Lastly, one project I worked on towards the end of the year was [**Null Injection**](https://quichi.itch.io/null-injector), a platformer I created for our UTGDDC game jam. I'm not going to go into too much detail because I wrote a post mortem [here](http://quichi.me/blog/2017/11/06/null-injection), and you can see the source code [here](https://github.com/ianw3214/FusionBlitz) as well.
+Lastly, one project I worked on towards the end of the year was [**Null Injection**](https://quichi.itch.io/null-injector), a platformer I created for our UTGDDC game jam. I'm not going to go into too much detail because I wrote a post mortem [here](https://quichi.me/blog/2017/11/06/null-injection), and you can see the source code [here](https://github.com/ianw3214/FusionBlitz) as well.
 
 # Downfalls
 
