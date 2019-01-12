@@ -124,4 +124,10 @@ time {
 
 .projectTitle {
     font-size: 30px;
+    margin-top: 50px;
+}
+
+.projectDescription{ 
+    font-size: 18px;
+    margin-top: 20px;
 }
