@@ -142,11 +142,9 @@ time {
 .projectBreak {
     width: 100px;
     float: left;
-    clear: both;
 }
 
 .projectDescription { 
     font-size: 18px;
     margin-top: 20px;
-    clear: both;
 }
