@@ -122,10 +122,13 @@ time {
     max-width: 100%;
 }
 
+.projectDetails {
+    float: left;
+}
+
 .projectTitle {
     font-size: 30px;
     margin-top: 50px;
-    float: left;
 }
 
 .projectTitleLink { 
@@ -136,12 +139,14 @@ time {
     color: #3674d8;
 }
 
-.projectDescription { 
-    font-size: 18px;
-    margin-top: 20px;
-}
-
 .projectBreak {
     width: 100px;
     float: left;
+    clear: both;
+}
+
+.projectDescription { 
+    font-size: 18px;
+    margin-top: 20px;
+    clear: both;
 }
