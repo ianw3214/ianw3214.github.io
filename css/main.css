@@ -136,7 +136,11 @@ time {
     color: #3674d8;
 }
 
-.projectDescription{ 
+.projectDescription { 
     font-size: 18px;
     margin-top: 20px;
+}
+
+.projectBreak {
+    width: 150px;
 }
