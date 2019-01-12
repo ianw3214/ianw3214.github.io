@@ -123,7 +123,7 @@ time {
 }
 
 .projectDetails {
-    float: left;
+    display: inline-block;
 }
 
 .projectTitle {
