@@ -125,10 +125,10 @@ time {
 .projectTitle {
     font-size: 30px;
     margin-top: 50px;
+    float: left;
 }
 
 .projectTitleLink { 
-    margin-top: 50px;
     color: #333;
 }
 
