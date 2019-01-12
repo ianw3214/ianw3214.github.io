@@ -142,5 +142,6 @@ time {
 }
 
 .projectBreak {
-    width: 150px;
+    width: 100px;
+    float: left;
 }
