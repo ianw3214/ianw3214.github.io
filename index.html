@@ -17,7 +17,7 @@ title: Ian Wang
 		{% for post in site.posts %}
 			{% if post.tags contains 'post'%}
 				<li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-				{% increment counter %}
+				{% counter = counter + 1 %}
 				<!-- Only show 6 recent posts on the home page -->
 				{% if counter > 5 %}
 					{% break %}
