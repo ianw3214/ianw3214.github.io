@@ -13,8 +13,16 @@ title: Ian Wang
 	</h2>
 
 	<ul class="posts">
-		{% for post in site.posts limit:5 %}
-			<li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+		{% assign counter = 0 %}
+		{% for post in site.posts %}
+			{% if post.tags contains 'post'%}
+				<li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+				{% increment counter %}
+				<!-- Only show 6 recent posts on the home page -->
+				{% if counter > 5 %}
+					{% break %}
+				{% endif %}
+			{% endif %}
 		{% endfor %}
 	</ul>
 </div><!-- /.blurb -->
