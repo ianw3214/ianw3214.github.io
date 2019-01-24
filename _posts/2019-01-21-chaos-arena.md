@@ -30,12 +30,6 @@ For the *sendPacket* functions, implementation was easy, since I would just send
 
 ## Experiences
 
-Describe some experiences working with networking code
-
-- Difficulties in debugging
-- ESPECIALLY trying to debug a multiplayer game on a single laptop
-- Trying to over complicate things with multi-threading when not necessary
-
 As this was my first time developing a multiplayer game, almost everything that could have gone wrong did. For one, I decided to make both the client and server multithreaded because I thought it was necessary for simultaneous processing of incoming and outgoing packets, when in reality I could have just used a non-blocking socket. This ended up being a huge pain point for me.
 
 Additionally, I was trying to develop an online game on a single laptop, so I couldn't really play test the important features. I had to run two instances of the game at once on my own laptop, which was problematic because both clients were receiving every packet sent from the server; When a client wasn't receiving any packets but was getting them because the other client was receiving them, it seemed like the client was receiving all the necessary packets and so some bugs didn't show up until I got people to playtest it.
