@@ -13,7 +13,7 @@ body {
 .container {
     min-height: 100%;
     width: 70%;
-    font-family: 'Raleway', sans-serif;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     position: relative;
     margin: 0 auto;
 }
@@ -30,7 +30,6 @@ body {
 }   
 
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
