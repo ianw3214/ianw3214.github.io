@@ -116,10 +116,6 @@ time {
     list-style-type: none;
 }
 
-.postList {
-    background-color: #CCC;
-}
-
 .postList time {
     margin-bottom: 10px;
 }
