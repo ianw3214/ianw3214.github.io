@@ -112,8 +112,17 @@ time {
     max-width: 30%;
 }
 
+.collapsible {
+    background-color: #EEE;
+}
+
+.active, .collapsible:hover {
+    background-color: #BBB;
+}
+
 .postList {
     list-style-type: none;
+    display: none;
 }
 
 .postList time {
