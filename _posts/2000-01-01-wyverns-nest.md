@@ -11,7 +11,7 @@ description: A 2D fantasy turn based strategy game that features rich customizat
 
 # Wyverns Nest
 
-[itch.io link](https://quichi.itch.io/wyverns-nest)
+[itch.io link](https://quichi.itch.io/wyverns-nest)  
 [github link](https://github.com/ianw3214/WyvernsNest)
 
 Wyverns Nest is a 2D fantasy turn based strategy game that features rich customization options paired with simple yet engaging combat. I started this project as a team project for our game design and development club, and collaborated with many other people throughout the entire development process. We started with about 20 people who were interested in the project, and managing the team started out as a real challenge. Towards the end,

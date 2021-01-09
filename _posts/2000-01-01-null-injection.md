@@ -15,7 +15,7 @@ Null injection is a platformer game made for the UTGDDC reading week game jam us
 
 ![Screenshot 1](/assets/projects/nullInjection1.png)
 
-[itch.io link](https://quichi.itch.io/null-injector)
+[itch.io link](https://quichi.itch.io/null-injector)  
 [github link](https://github.com/ianw3214/Null-Injection)
 
 Null Injection is a very simple platformer, and my objective with the game was to create something with very tight controls that felt good to play. I learned many animation principles to make movement and attacks feel fluid, as well as how to connect the animation to the code in a seamless way.
