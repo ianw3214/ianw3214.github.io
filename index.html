@@ -15,7 +15,7 @@ title: Ian Wang
 	<ul class="posts">
 		{% for post in site.posts limit:7 %}
 			{% if post.tags contains 'post'%}
-				<li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+				<li><span class="dateinfo">{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 			{% endif %}
 		{% endfor %}
 	</ul>

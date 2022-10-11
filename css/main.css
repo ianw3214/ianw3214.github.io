@@ -88,6 +88,10 @@ time {
     padding-left: 15px;
 }
 
+.dateinfo {
+    font-family: 'Courier New', monospace;
+}
+
 /* STUFF FOR PROJECT PAGE */
 .projects {
     width: 100%;
