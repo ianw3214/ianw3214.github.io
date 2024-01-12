@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Obligatory new years writeup"
-date: 2023-01-07
+title: "New Year Same Me"
+date: 2024-01-07
 comments: true
 tags: post
 ---
 
-Another year has gone by, which means it's time for me to dust off my writing hat again. 2023 was pretty chaotic, but through that chaos I've learned some things about myself and also experienced some change in my life perspectives.
+Another year has gone by, which means it's time for me to dust off my writing hat again. 2023 was pretty chaotic, but through that chaos I've learned some things about myself and also experienced some change in my life perspectives. As an overview, I think this year I've really started to find my rhythm and figured out what works and doesn't work for me.
 
 ## Overview
 
