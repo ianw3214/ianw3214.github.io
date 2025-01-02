@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New Year Same Me"
+title: "Intentional living"
 date: 2025-01-01
 comments: true
 tags: post
