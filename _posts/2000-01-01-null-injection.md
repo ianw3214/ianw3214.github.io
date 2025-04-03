@@ -9,8 +9,6 @@ description: A platformer game made for the UTGDDC reading week game jam using a
 
 ---
 
-# Null Injection
-
 Null injection is a platformer game made for the UTGDDC reading week game jam using QcEngine, a custom engine based off SDL. This was one of my first game jam games ever, and I learned a lot throughout the entire experience.
 
 ![Screenshot 1](/assets/projects/nullInjection1.png)

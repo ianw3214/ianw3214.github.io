@@ -114,6 +114,8 @@ time {
     float: left;
     /* Maximum sizes to make sure everything works properly */
     max-width: 30%;
+    /* Clip out excess image instead of squash/stretch */
+    object-fit: cover;
 }
 
 .collapsible {

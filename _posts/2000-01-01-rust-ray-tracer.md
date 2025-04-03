@@ -4,12 +4,10 @@ title: "Rust Raytracer"
 date: 2023-07-31
 comments: false
 tags: project
-image: rustRaytrace.png
+image: rustRaytraceTitle.png
 description: A raytracer developed in rust with features like lighting, shadows, materials, and constructive geometry.
 
 ---
-
-# Rust Raytracer
 
 ![screenshot](/assets/projects/rustRaytrace.png)
 
