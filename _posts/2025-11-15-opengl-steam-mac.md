@@ -152,17 +152,17 @@ At this point, I was able to fully run the game locally - so I then wanted to st
 
 A **Depot** is essentially a distinct collection of files, so I had to create a new one for the Mac build. This depot would be where I actual sent my files to via SteamPipe. The settins for this is found in **App Admin -> SteamPipe -> Depots**
 
-![Depot settings](/assets/posts/steam_mac_port1.png)
+![Depot settings](/assets/posts/steam_mac_port1.PNG)
 
 Then, I created a new **Build** with a password so that only I could test it. The settins for this is found in **App Admin -> SteamPipe -> Builds**
 
-![Branch settings](/assets/posts/steam_mac_port2.png)
+![Branch settings](/assets/posts/steam_mac_port2.PNG)
 
 #### Uploading the build
 
 The process for uploading the build does not change much for separate platforms. I used the SteamPipeGUI that is included with the steamworks SDK to handle uploading my builds - I just had to remember to change the Depot ID to point to the newly created Mac depot.
 
-![SteamPipe GUI settings](/assets/posts/steam_mac_port3.png)
+![SteamPipe GUI settings](/assets/posts/steam_mac_port3.PNG)
 
 *Note: Remember to click Generate VDFs after you add the new depot ID to upload to!*
 
@@ -170,29 +170,29 @@ The process for uploading the build does not change much for separate platforms.
 
 After the build has been uploaded, it needs to be set to live on steamworks for it to actually reach an end user. This is done by going back to the builds page (**App Admin -> SteamPipe -> Builds**) and finding the uploaded build to set live on branch - click the corresponding branch and click the Preview Change button to follow the steps and set the build to live!
 
-![Set build live](/assets/posts/steam_mac_port4.png)
+![Set build live](/assets/posts/steam_mac_port4.PNG)
 
 #### Launch options
 
 One last important step is to add a new launch option for Mac so that it can properly find the right executable to launch. The documentation I found said that there are some default ways that steam handles this, but they didn't quite work for me so I had to manually specify the entire path from the root to the executable. These settings are found under **App Admin -> Installation -> General Installation**.
 
-![Launch options](/assets/posts/steam_mac_port5.png)
+![Launch options](/assets/posts/steam_mac_port5.PNG)
 
 *Note: I've already mentioned before, but I had to move the assets manually to the root folder to make it work. As such, the folder structure that I shipped with looked like this:*
 
-![Assets folder](/assets/posts/steam_mac_port6.png)
+![Assets folder](/assets/posts/steam_mac_port6.PNG)
 
 ## Running the game through Steam
 
 The last bit to tie it all together is to actually launch the game on the newly created branch. First, navigate to the game you are porting and find **Properties.. -> Betas**. Input the password for the branch into the field under **Private Betas** and it should show a button to enable Beta testing for your new platform branch.
 
-![Beta unlock](/assets/posts/steam_mac_port7.png)
+![Beta unlock](/assets/posts/steam_mac_port7.PNG)
 
 Your game should now specify the version that is being tested on the steam library page! You're now free to test whatever you want through an uploaded steam build through the actual platform, and hopefully there aren't any issues!
 
-![Final screen 1](/assets/posts/steam_mac_port8.png)
+![Final screen 1](/assets/posts/steam_mac_port8.PNG)
 
-![Final screen 2](/assets/posts/steam_mac_port9.png)
+![Final screen 2](/assets/posts/steam_mac_port9.PNG)
 
 ## Author's note
 
