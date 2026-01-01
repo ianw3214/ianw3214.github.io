@@ -8,6 +8,8 @@ tags: post
 
 I recently had to port my steam game to Mac so my friends could play it - and the process was kind of gruesome so I wanted to outline some of the things I did to document it for other people (and my future self) to have as a refence. I'll just jump right into the steps I took:
 
+**Additional Note:** My mac build still has some issues with library links in the app package, so please take this as a rough guideline rather than a full breakdown.
+
 ## Environment setup
 
 The first thing I had to do was actually get my Mac environment setup to be able to build the game. This meant getting CMake up and running, as well as all the libraries set up and ready to go. I used [homebrew](https://brew.sh/) as a starting point, which worked perfectly well for the most part!
