@@ -15,7 +15,7 @@ The bug I was running into had to do with players leaving and rejoining lobbies.
 However, when a player left the lobby and rejoined - the indices would become mismatched. Basically, the previous player who became the new host would for some reason remain at index 1 even after the original host left the lobby; but new players joining the lobby would see that player at index 0. This didn't matter much for my actual lobby logic since I was relying on my own logic to detect which player is the host, but it was messing up the player username displays in the lobby since that depends on the member index.
 
 The only discussion I found online was this thread which didn't really go anywhere:  
-- https://discussions.unity.com/t/steamworks-problem-with-getlobbymemberbyindex/774007
+- [https://discussions.unity.com/t/steamworks-problem-with-getlobbymemberbyindex/774007](https://discussions.unity.com/t/steamworks-problem-with-getlobbymemberbyindex/774007)
 
 ## The Problem
 
